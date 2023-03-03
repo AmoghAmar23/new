@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(255, 229, 152);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center ;
+}
+
+img {
+    width: 100px;
+    margin: 20;
+    margin-bottom: 20;
+    margin-top: 20;
+}
+
+.page-header {
+    display:flex;
+    column-gap: 7em;
+    align-items: flex-start;
+    background-color: rgb(255, 195, 29);;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+    font-size: 50px;
+}
+.page-footer {
+    display:flex;
+    column-gap: 7em;
+    justify-content: center;
+    background-color: rgb(255, 195, 29);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    
+    float: inline-end;
+    }
+
+.navigation-element{
+    float: right;
+    box-shadow: 0 0 10px black;
+}
+
+.name-element {
+    float: left;
+    box-shadow: 0 0 10px black;
+}
+
+.chappelle-quote1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.chappelle-quote2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    justify-content: flex-end;
+    font-style: italic;
+}
+.images-footer {
+    align-items:center;
+}
+
+.links{
+    display:inline;
+}
+
+.exact {
+    text-decoration: underline rgb(255, 153, 0);
+
+}

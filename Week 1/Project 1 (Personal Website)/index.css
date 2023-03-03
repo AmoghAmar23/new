@@ -1,0 +1,4 @@
+.exact {
+    text-decoration: underline rgb(255, 64, 0);
+    text-shadow: 0 0 5px #ff0000; 
+}

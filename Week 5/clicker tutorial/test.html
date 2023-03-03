@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <title>cookies</title>
+
+    <script>
+        var clicker = {
+            generics:0,
+            upgrades: {
+                generic_machine:{
+                    amount:0,
+                    cost:10,
+                    gps:1,
+                    name:"Generic Machine"
+                }
+            }
+        };
+
+        function thing_clicked(thing){
+            clicker.upgrades[thing].amount++;
+            update_upgrades();
+        }
+
+        function update_upgrades(){
+            document.querySelector("#upgrades").innerHTML="";
+            for(i in clicker.upgrades){
+                document.getElementById("#upgrades").innerHTML+= `<br> <button onclick="think_clicked('${i}')"
+                ${clicker.upgrades[i].name}</button> you have ${clicker.upgrades[i].amount}`;
+            }
+        }
+
+        function updateCount(){
+            setInterval(( ) => {
+                for(i in clicker.upgrades){
+                    clicker.generics+=clicker.upgrades[i].amount*clicker.upgrades[i].gps/20
+                }
+
+                document.querySelector("#generics").innerHTML = "you have "+String(clicker.generics).split(".")[0]+" generics"
+            },50);
+        }
+
+    </script>
+
+</head>
+   
+<body onload="updateCount()">
+    <h1 id="generics"> you have 0 generics </h1>
+    <button onclick="thing_clicked(clicker.generics++)">Get 1 generic</button>
+</body>
+
+<!-- make a function func()
+you need to set the button TO the function
+generic++ is intervals
+innerHTML is where you can change the inside text "you have 0 items" becomes "you have"+generic+" items"
+
+Just do the clicker function and submit what I have for my project #3
+-->

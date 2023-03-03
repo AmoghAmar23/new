@@ -1,0 +1,28 @@
+footer {
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(50, 109, 109);
+    font-family:'Dosis';
+    padding: 20px;
+    color: white;
+    }
+
+section {
+    display:flex;
+    margin-right: 6px;
+    }
+
+heading2 {
+    display:flex;
+    border-bottom: 6px white ;
+    padding: 8px;
+    margin-bottom: 6px;
+    letter-spacing: 6px;
+    }
+
+a {
+    text-decoration-color: white;
+    text-decoration: none;
+    font-style: bold;
+    color: white;
+    }

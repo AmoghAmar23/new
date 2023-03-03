@@ -1,0 +1,48 @@
+.items {
+    display:flex;
+    flex-wrap: wrap;
+    font-family:sans-serif;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-grow: 2;
+    }
+
+.item {
+    display:flex;
+    flex-basis:2px;
+    flex-grow:2;
+    flex-shrink:0;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    flex-direction: column;
+    }
+
+.item:hover {
+    box-shadow: 0 2px 5px -2px black;
+    }
+
+.item-name {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:7px;
+    color: white;
+    background-color: #44b; 
+    }
+
+.add-item{
+    color:white;
+    background-color: rgb(44, 44, 64);
+    border-radius: 45px;
+    size: 260x;
+    }
+
+.fact-line{
+    background-color: #44b;
+    color: white;
+    }
+
+.item-description {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    }

@@ -1,0 +1,48 @@
+.main-nav {
+    display:flex;
+    background-color: rgb(48, 48, 70);
+    justify-content: space-between;
+    }
+
+.full-width {
+    display:none;
+    }
+
+.short-width {
+    display:flex;
+    }
+
+.sub-nav {
+    display:flex;
+    }
+
+.search-form {
+    display:flex;
+    flex-grow: 2;
+    }
+
+.nav-list {
+    display:flex;
+    }
+
+.nav-list li:last-of-type a { 
+    border-right: remove;
+    }
+
+.company-name {
+    background-color: white;
+    color: rgb(52, 52, 157);
+    size: 70px;
+    }
+
+.credit-offer {
+    background-color: white;
+    color: rgb(52, 52, 157);
+    size: 70px;
+    }
+
+
+a {
+    padding: 3px;
+    border-right: 3px;
+    }
